@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Description>An uninstaller for the HearthStone Deck Tracker project.</Description>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net471;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>net471;net45;netstandard2.0;netcoreapp2.0</TargetFrameworks>
     <StartupObject>HearthStone.Updater.Program</StartupObject>
     <PackageTags>HearthStone DeckTracker Updater</PackageTags>
     <ApplicationIcon>Images\HearthstoneDeckTracker.ico</ApplicationIcon>
@@ -12,11 +12,11 @@
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <RepositoryType>GIT</RepositoryType>
     <Copyright>Copyright © HearthSim</Copyright>
-    <Product>HearthStone UnInstaller</Product>
     <Company>HearthSim</Company>
     <Authors>HearthSim</Authors>
     <PackageId>HearthStone.Updater</PackageId>
     <AssemblyName>HearthStone.Updater</AssemblyName>
+    <Product>HearthStone.Updater</Product>
     <RootNamespace>HearthStone.Updater</RootNamespace>
     <Version>1.0.0</Version>
   </PropertyGroup>
