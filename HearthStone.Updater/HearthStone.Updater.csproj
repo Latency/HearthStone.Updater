@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <Description>An uninstaller for the HearthStone Deck Tracker project.</Description>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net471;netcoreapp2.0</TargetFrameworks>
+    <StartupObject>HearthStone.Updater.Program</StartupObject>
+    <PackageTags>HearthStone DeckTracker Updater</PackageTags>
+    <ApplicationIcon>Images\HearthstoneDeckTracker.ico</ApplicationIcon>
+    <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Latency/HearthStone.Updater</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Latency/HearthStone.Updater</RepositoryUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <Copyright>Copyright © HearthSim</Copyright>
+    <Product>HearthStone UnInstaller</Product>
+    <Company>HearthSim</Company>
+    <Authors>HearthSim</Authors>
+    <PackageId>HearthStone.Updater</PackageId>
+    <AssemblyName>HearthStone.Updater</AssemblyName>
+    <RootNamespace>HearthStone.Updater</RootNamespace>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Images\HearthstoneDeckTracker.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
